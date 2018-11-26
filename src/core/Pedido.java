@@ -1,12 +1,12 @@
-package model;
+package core;
 
-import java.util.Date;
+import java.util.Calendar;
 import java.util.List;
 
 public class Pedido {
     //Declaração de variáveis
     public int id;
-    public Date date = new Date();
+    public Calendar date = Calendar.getInstance();
     public List<ItemPedido> itens;
     public Frete frete;
     public IFormaDePagamento formaDePagamento;
@@ -21,11 +21,11 @@ public class Pedido {
         this.id = id;
     }
 
-    public Date getDate() {
+    public Calendar getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(Calendar date) {
         this.date = date;
     }
 

@@ -1,4 +1,4 @@
-package model;
+package core.enums;
 
 public enum TipoFrete {
     EXPRESSO(1), CONVENCIONAL(2);

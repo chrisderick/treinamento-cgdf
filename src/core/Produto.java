@@ -1,4 +1,4 @@
-package model;
+package core;
 
 public class Produto {
     //Declaração de variáveis

@@ -1,4 +1,4 @@
-package model;
+package core;
 
 public class Endereco {
     public int id;

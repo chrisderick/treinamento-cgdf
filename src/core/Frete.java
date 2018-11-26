@@ -1,4 +1,6 @@
-package model;
+package core;
+
+import core.enums.TipoFrete;
 
 public class Frete {
     public int id;

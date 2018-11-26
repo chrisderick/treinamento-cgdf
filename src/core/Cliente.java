@@ -1,4 +1,6 @@
-package model;
+package core;
+
+import core.enums.TipoTelefone;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +12,7 @@ public class Cliente {
 
     public Cliente(String email){
         this.email = email;
-        this.telefones = new ArrayList<>();
+        this.telefones = new ArrayList<Telefone>();
     }
 
     public void AddTelefone(String numero, TipoTelefone tipoTelefone){
