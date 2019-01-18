@@ -1,4 +1,4 @@
-package core.enums;
+package AppEcommerce.Console.core.enums;
 
 public enum Sexo {
     MASCULINO(1), FEMININO(2);

@@ -1,4 +1,4 @@
-package core;
+package AppEcommerce.Console.core;
 
 public class PessoaJuridica extends Cliente {
     public String cnpj;

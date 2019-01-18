@@ -1,5 +1,7 @@
-package core;
-import core.enums.TipoTelefone;
+package AppEcommerce.Console;
+import AppEcommerce.Console.core.Cliente;
+import AppEcommerce.Console.core.Produto;
+import AppEcommerce.Console.core.enums.TipoTelefone;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package core;
+package AppEcommerce.Console.core;
 
-import core.enums.Sexo;
+import AppEcommerce.Console.core.enums.Sexo;
 
 import java.util.Date;
 

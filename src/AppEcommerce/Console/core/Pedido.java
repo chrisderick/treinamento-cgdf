@@ -1,4 +1,4 @@
-package core;
+package AppEcommerce.Console.core;
 
 import java.util.Calendar;
 import java.util.List;

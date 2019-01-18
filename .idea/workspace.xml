@@ -2,26 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9b6078d-0b2f-4d56-bd88-969a0cab121b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/core/BoletoBancario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/CartaoDeCredito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/DescontoPessoaJuridica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/DescontoPessoaJuridicaUtilizado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/PessoaFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/PessoaJuridica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/Promocao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/enums/Sexo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/db/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/db/IDataAccessObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/db/ProdutoDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Frete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Frete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/IFormaDePagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/IFormaDePagamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Telefone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/TipoFrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/enums/TipoFrete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/TipoTelefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/enums/TipoTelefone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/BoletoBancario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/BoletoBancario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/CartaoDeCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/CartaoDeCredito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/DescontoPessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/DescontoPessoaJuridica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/DescontoPessoaJuridicaUtilizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/DescontoPessoaJuridicaUtilizado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Frete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/Frete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/IFormaDePagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/IFormaDePagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/PessoaFisica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/PessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/PessoaJuridica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Promocao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/Promocao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/Telefone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/enums/Sexo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/enums/Sexo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/enums/TipoFrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/enums/TipoFrete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/enums/TipoTelefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppEcommerce/Console/core/enums/TipoTelefone.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,6 +32,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -79,82 +85,114 @@
     <session id="-255941551">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="89" />
+          <entry key="java" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="89" />
+          <entry key="JAVA" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="2384" />
-          <entry key="txt" value="18" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2384" />
-          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="PLAIN_TEXT" value="20" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="386590254">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="372" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="372" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/db/ConnectionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="76" lean-forward="true" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/core/Program.java">
+        <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/db/ProdutoDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="46">
+              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/enums/TipoTelefone.java">
+        <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/db/IDataAccessObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="184">
+              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/Cliente.java">
+        <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/Produto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1543258856296" expanded="true" signature="756:1175" ph="..." />
-              </folding>
+            <state relative-caret-position="-161">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -164,9 +202,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -208,6 +246,13 @@
         <option value="$PROJECT_DIR$/src/core/Cliente.java" />
         <option value="$PROJECT_DIR$/src/core/enums/TipoTelefone.java" />
         <option value="$PROJECT_DIR$/src/core/Program.java" />
+        <option value="$PROJECT_DIR$/src/AppEcommerce/Console/core/IFormaDePagamento.java" />
+        <option value="$PROJECT_DIR$/src/AppEcommerce/Console/core/enums/TipoTelefone.java" />
+        <option value="$PROJECT_DIR$/src/AppEcommerce/Console/Program.java" />
+        <option value="$PROJECT_DIR$/src/AppEcommerce/Console/core/enums/Sexo.java" />
+        <option value="$PROJECT_DIR$/src/AppEcommerce/Console/db/ConnectionFactory.java" />
+        <option value="$PROJECT_DIR$/src/AppEcommerce/Console/db/IDataAccessObject.java" />
+        <option value="$PROJECT_DIR$/src/AppEcommerce/Console/db/ProdutoDao.java" />
       </list>
     </option>
   </component>
@@ -217,10 +262,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -244,7 +296,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -262,27 +313,35 @@
               <item name="treinamento-cgdf" type="b2602c69:ProjectViewProjectNode" />
               <item name="treinamento-cgdf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="treinamento-cgdf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="treinamento-cgdf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="treinamento-cgdf" type="b2602c69:ProjectViewProjectNode" />
               <item name="treinamento-cgdf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543259232783" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547840804789" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../programacao/Java/IntelliJ/Projetos/fj21-jdbc" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -305,7 +364,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="core.Program" />
+      <option name="MAIN_CLASS_NAME" value="AppEcommerce.Console.Program" />
       <module name="treinamento-cgdf" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -331,7 +390,8 @@
       <option name="presentableId" value="Default" />
       <updated>1541004904690</updated>
       <workItem from="1542987183543" duration="3966000" />
-      <workItem from="1543248442108" duration="9123000" />
+      <workItem from="1543248442108" duration="9347000" />
+      <workItem from="1543506539759" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Commit CGDF 09/11&quot;">
       <created>1541788846690</created>
@@ -340,11 +400,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541788846690</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;Commit CGDF 26/11&quot;">
+      <created>1543259276178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543259276178</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13089000" />
+    <option name="totallyTimeSpent" value="13335000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,7 +426,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2692802" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27956298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -379,7 +446,6 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012854" side_tool="true" weight="0.32921812" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" x="0" y="0" width="354" height="676" id="Documentation" side_tool="true" weight="0.32969153" />
       <window_info anchor="right" id="Database" order="0" weight="0.32969153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -388,8 +454,41 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32969153" />
+      <window_info anchor="right" x="0" y="0" width="354" height="676" id="Documentation" order="9" side_tool="true" weight="0.32969153" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27956298" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32921812" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32921812" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49871466" weight="0.32921812" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012854" side_tool="true" weight="0.32921812" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32969153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32969153" />
+      <window_info anchor="right" x="0" y="0" width="354" height="676" id="Documentation" order="9" side_tool="true" weight="0.32969153" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -399,7 +498,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Commit CGDF 09/11&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commit CGDF 09/11&quot;" />
+    <MESSAGE value="&quot;Commit CGDF 26/11&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commit CGDF 26/11&quot;" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -420,200 +520,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/ItemPedido.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding>
-            <marker date="1542987725772" expanded="false" signature="182:628" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/BoletoBancario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/CartaoDeCredito.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <marker date="1542988279352" expanded="false" signature="189:641" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/ItemPedido.java" />
     <entry file="file://$PROJECT_DIR$/out/production/treinamento-cgdf/core/BoletoBancario.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Frete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <marker date="1543253318711" expanded="false" signature="202:768" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/DescontoPessoaJuridica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <marker date="1542988553963" expanded="false" signature="212:900" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/IFormaDePagamento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/DescontoPessoaJuridicaUtilizado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/PessoaJuridica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <marker date="1543250830187" expanded="true" signature="249:723" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/PessoaFisica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <marker date="1543253318622" expanded="false" signature="321:881" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Pedido.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <marker date="1543253098372" expanded="true" signature="324:1078" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Promocao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="70" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <marker date="1543253210380" expanded="false" signature="385:1539" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/enums/TipoFrete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/enums/Sexo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Endereco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <marker date="1542987725634" expanded="false" signature="599:1677" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/Frete.java" />
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/DescontoPessoaJuridica.java" />
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/DescontoPessoaJuridicaUtilizado.java" />
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/PessoaJuridica.java" />
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/PessoaFisica.java" />
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/Pedido.java" />
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/Promocao.java" />
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/Endereco.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -621,71 +539,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Produto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <marker date="1542987725503" expanded="false" signature="425:1124" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="76" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Telefone.java">
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/Telefone.java" />
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/Cliente.java" />
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/CartaoDeCredito.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <marker date="1543253318744" expanded="false" signature="435:1023" ph="..." />
-          </folding>
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Cliente.java">
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/IFormaDePagamento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/BoletoBancario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/enums/TipoTelefone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/enums/Sexo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/enums/TipoFrete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1543258856296" expanded="true" signature="756:1175" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/enums/TipoTelefone.java">
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/core/Produto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-161">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/db/IDataAccessObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="184">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/db/ConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="76" lean-forward="true" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppEcommerce/Console/db/ProdutoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,6 +1,6 @@
-package core;
+package AppEcommerce.Console.core;
 
-import core.enums.TipoTelefone;
+import AppEcommerce.Console.core.enums.TipoTelefone;
 
 public class Telefone {
     public int id;

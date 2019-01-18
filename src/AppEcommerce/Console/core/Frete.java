@@ -1,6 +1,6 @@
-package core;
+package AppEcommerce.Console.core;
 
-import core.enums.TipoFrete;
+import AppEcommerce.Console.core.enums.TipoFrete;
 
 public class Frete {
     public int id;

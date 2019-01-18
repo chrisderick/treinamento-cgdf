@@ -1,4 +1,4 @@
-package core.enums;
+package AppEcommerce.Console.core.enums;
 
 public enum TipoTelefone {
     FIXO(1), MOVEL(2), COMERCIAL(3);

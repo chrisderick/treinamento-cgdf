@@ -1,6 +1,6 @@
-package core;
+package AppEcommerce.Console.core;
 
-import core.enums.TipoTelefone;
+import AppEcommerce.Console.core.enums.TipoTelefone;
 
 import java.util.ArrayList;
 import java.util.List;
