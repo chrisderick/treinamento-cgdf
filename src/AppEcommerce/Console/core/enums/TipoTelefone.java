@@ -1,19 +1,12 @@
 package AppEcommerce.Console.core.enums;
 
 public enum TipoTelefone {
-    FIXO(1), MOVEL(2), COMERCIAL(3);
+    FIXO(0), MOVEL(1), COMERCIAL(2);
 
-    public int valorTipoTelefone;
+    int valorTipoTelefone;
 
-    TipoTelefone(int valor) {
-        valorTipoTelefone = valor;
+    TipoTelefone(int index) {
+       this.valorTipoTelefone = index;
     }
 
-    public int getValorTipoTelefone() {
-        return valorTipoTelefone;
-    }
-
-    public void setValorTipoTelefone(int valorTipoTelefone) {
-        this.valorTipoTelefone = valorTipoTelefone;
-    }
 }

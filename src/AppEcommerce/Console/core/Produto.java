@@ -2,11 +2,11 @@ package AppEcommerce.Console.core;
 
 public class Produto {
     //Declaração de variáveis
-    public int id;
-    public String descricao;
-    public double preco;
-    public double peso;
-    public boolean disponivel;
+    private int id;
+    private String descricao;
+    private double preco;
+    private double peso;
+    private boolean disponivel;
 
     public Produto(String descricao, double preco, double peso)
     {

@@ -6,13 +6,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Cliente {
-    public int id;
-    public String email;
-    public List<Telefone> telefones;
+    private int id;
+    private String email;
+    private List<Telefone> telefones;
 
     public Cliente(String email){
         this.email = email;
-        this.telefones = new ArrayList<Telefone>();
+        this.telefones = new ArrayList<>();
     }
 
     public void AddTelefone(String numero, TipoTelefone tipoTelefone){
